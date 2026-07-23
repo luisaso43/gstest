@@ -229,7 +229,9 @@
         <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span><strong data-i18n="quote_hours_label">Hours</strong>: <span data-i18n="quote_hours_value">Mon – Sat, 8:00 AM – 6:00 PM</span></span></div>
       </div>
       <div>
-        <form class="form-grid" data-fake-submit>
+        <form class="form-grid" action="https://formspree.io/f/mqerdgje" method="POST" data-ajax-submit>
+          <input type="hidden" name="_subject" value="New Quote Request — Galino Solutions" />
+          <input type="hidden" name="form_type" value="Quote Request (Services Page)" />
           <div class="field"><label data-i18n="f_name">Full Name</label><input type="text" required data-i18n-ph="f_name_ph" placeholder="Your name" /></div>
           <div class="field"><label data-i18n="f_phone">Phone</label><input type="tel" required data-i18n-ph="f_phone_ph" placeholder="(786) 000-0000" /></div>
           <div class="field full"><label data-i18n="f_email">Email</label><input type="email" data-i18n-ph="f_email_ph" placeholder="you@email.com" /></div>
@@ -256,12 +258,14 @@
             <button type="submit" class="btn btn-primary" data-i18n="f_submit">Request My Free Estimate</button>
             <p class="form-note" data-i18n="f_note">We typically respond within one business day.</p>
             <div class="form-success" data-i18n="f_success">Thanks! Your request has been received — we'll be in touch shortly.</div>
+            <div class="form-error" data-i18n="form_error">Something went wrong sending your request. Please call or text us at 786-851-4690.</div>
           </div>
         </form>
       </div>
     </div>
   </div>
 </section>
+ 
 
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer">
