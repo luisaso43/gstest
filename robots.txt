@@ -1,0 +1,29 @@
+# Galino Solutions — robots.txt
+# Default: allow all crawlers full access to the site.
+User-agent: *
+Allow: /
+
+# ---- AI crawlers explicitly allowed ----
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google's AI training crawler (separate from regular Googlebot)
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl (used to train many AI models)
+User-agent: CCBot
+Allow: /
+
+# Sitemap
+Sitemap: https://www.galinosolutions.com/sitemap.xml
