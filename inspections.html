@@ -1,6 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": "https://www.galinosolutions.com/#business",
+      "name": "Galino Solutions",
+      "description": "We provide professional services to homes, from a full residential inspection and insurance reports to full house renovation, serving South Florida.",
+      "url": "https://www.galinosolutions.com",
+      "telephone": "+1-786-851-4690",
+      "image": "https://www.galinosolutions.com/assets/logo_clean.png",
+      "logo": "https://www.galinosolutions.com/assets/logo_clean.png",
+      "priceRange": "$-$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Miami",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Miami" },
+        { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
+        { "@type": "AdministrativeArea", "name": "Broward County" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "07:00",
+        "closes": "20:00"
+      },
+      "sameAs": [
+        "https://instagram.com/galinosolutions"
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "name": "Remodeling",
+      "serviceType": "Home Remodeling",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Kitchen, bathroom, and whole-home remodeling from concept to final walkthrough."
+    },
+    {
+      "@type": "Service",
+      "name": "Painting",
+      "serviceType": "Interior and Exterior Painting",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Interior and exterior painting with clean lines and lasting finishes."
+    },
+    {
+      "@type": "Service",
+      "name": "Drywall",
+      "serviceType": "Drywall Installation and Repair",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Drywall installation, repair, and patching for walls and ceilings."
+    },
+    {
+      "@type": "Service",
+      "name": "Plumbing",
+      "serviceType": "Plumbing Repair and Installation",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Leak repair, fixture installation, drain cleaning, and water heater service."
+    },
+    {
+      "@type": "Service",
+      "name": "Electrical",
+      "serviceType": "Electrical Repair and Installation",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Code-conscious electrical repairs and installations for lighting, outlets, and panels."
+    },
+    {
+      "@type": "Service",
+      "name": "Flooring",
+      "serviceType": "Flooring Installation",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Tile, laminate, and vinyl flooring installation."
+    },
+    {
+      "@type": "Service",
+      "name": "Pressure Washing",
+      "serviceType": "Pressure Washing",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Driveways, siding, walkways, and patios pressure washed to restore curb appeal."
+    },
+    {
+      "@type": "Service",
+      "name": "Junk Removal",
+      "serviceType": "Junk Removal",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Fast, responsible removal of unwanted furniture, debris, and clutter."
+    },
+    {
+      "@type": "Service",
+      "name": "Full Residential Home Inspection",
+      "serviceType": "Home Inspection",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Comprehensive, top-to-bottom evaluation of a home's condition for buyers and sellers, starting from $350.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "350",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "350",
+          "priceCurrency": "USD"
+        }
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "4-Point Inspection",
+      "serviceType": "Insurance Home Inspection",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Focused review of a home's roof, electrical, plumbing, and HVAC systems, commonly required by insurance companies."
+    },
+    {
+      "@type": "Service",
+      "name": "Wind Mitigation Inspection",
+      "serviceType": "Insurance Home Inspection",
+      "provider": { "@id": "https://www.galinosolutions.com/#business" },
+      "areaServed": "South Florida",
+      "description": "Documents a home's storm-resistant features, which can help lower windstorm insurance premiums."
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a home inspection cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Full Residential Inspection starts at $350. Pricing varies by home size and the type of inspection needed (4-Point, Wind Mitigation, or Full Residential)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a bathroom or kitchen renovation cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bathroom renovations start at $5,000 and kitchen renovations start at $6,000. Final pricing depends on the scope of work, materials, and size of the space."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast can I get my inspection report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Galino Solutions provides same-day inspection reports in most cases, so buyers and sellers are not left waiting during time-sensitive real estate transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Galino Solutions licensed and insured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Galino Solutions is licensed and insured for home inspection services and has over 10 years of experience in professional home services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer free estimates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, free estimates are provided for all professional home services, including remodeling, painting, plumbing, electrical, and other repair or renovation work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Galino Solutions serves Miami-Dade and Broward counties, including Miami, Fort Lauderdale, Hialeah, Coral Gables, Doral, Homestead, Pembroke Pines, Hollywood, Miramar, Aventura, and Kendall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between a 4-Point Inspection and a Full Residential Inspection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 4-Point Inspection focuses on the roof, electrical, plumbing, and HVAC systems, typically required by insurance companies for older homes. A Full Residential Inspection is a comprehensive evaluation of the entire property, recommended for buyers and sellers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Galino Solutions speak Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Galino Solutions has a bilingual team and provides service in both English and Spanish."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Galino Solutions | Home Inspections</title>
